@@ -1,0 +1,3 @@
+com\easyteleport\easyteleport\EasyTeleport.class
+com\easyteleport\easyteleport\commands\TeleportAllCommand.class
+com\easyteleport\easyteleport\commands\teleportCommand.class

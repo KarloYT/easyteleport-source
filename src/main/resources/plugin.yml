@@ -1,0 +1,21 @@
+name: EasyTeleport
+version: '${project.version}'
+main: com.easyteleport.easyteleport.EasyTeleport
+api-version: 1.19
+prefix: EasyTeleport
+load: STARTUP
+authors: [ KarloCavlovic, KarloDevelopingStudios ]
+description: This is the official EasyTeleport plugin by KarloDevelopingStudios; Karlo
+website: https://youtubekarlo.live
+
+commands:
+  tp:
+    description: "Teleport to an player, or teleport two players to each other."
+    aliases:
+      - teleport
+      - playertp
+  tpall:
+    description: "Teleports everyone to you."
+    aliases:
+      - teleportall
+      - servertp
